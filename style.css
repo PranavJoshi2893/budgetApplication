@@ -27,6 +27,20 @@ td{
     justify-content: space-between;
 }
 
-#innerDivChange{
+#bottomDiv{
     display: flex;
+}
+
+#innerDiv2{
+    align-self: flex-end;
+}
+
+#topDiv{
+    align-self: flex-start;
+}
+#midDiv{
+    align-self: center;
+}
+#bottomDiv{
+    align-self: flex-end;
 }

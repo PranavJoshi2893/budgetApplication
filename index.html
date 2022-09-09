@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="mainContainer">
+    <div id="mainContainer" id="topDiv">
         <div class="commonproperties">
             <fieldset>
                 <legend>Enter Your Budget</legend>
@@ -17,7 +17,7 @@
             </fieldset>
         </div>
 
-        <div class="commonproperties">
+        <div class="commonproperties" id="midDiv">
             <table>
                 <tr>
                     <td colspan="4">Budget Table:</td>
@@ -31,8 +31,9 @@
             </table>
         </div>
 
-        <div class="commonproperties" id="innerDivChange">
-            <div>
+        <div class="commonproperties" id="bottomDiv">
+            
+            <div id="innerDiv1">
                 <fieldset>
                     <legend>Expenses</legend>
                     <label>Expenses Name:</label><br><br>
@@ -42,7 +43,8 @@
                     <button type="reset">Expenses</button>
                 </fieldset>
             </div>
-            <div>
+
+            <div id="innerDiv2">
                 <fieldset>
                     <legend>Expenses Info</legend>
                     <br><br>
