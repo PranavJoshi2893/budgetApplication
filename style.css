@@ -17,7 +17,7 @@ td{
 }
 
 .commonproperties{
-    background-color: lightgrey;
+    background-color: lightyellow;
 }
 
 #mainContainer{
@@ -25,6 +25,7 @@ td{
     min-height: 100vh;;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #bottomDiv{
@@ -35,12 +36,16 @@ td{
     align-self: flex-end;
 }
 
+
 #topDiv{
     align-self: flex-start;
+    margin: 20px;
 }
 #midDiv{
     align-self: center;
+    margin: 20px;
 }
 #bottomDiv{
     align-self: flex-end;
+    margin: 20px;
 }
